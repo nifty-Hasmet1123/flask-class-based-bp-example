@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask-related
+instance/
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Pytest / coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.pyc
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# Migrations (if using Flask-Migrate or Alembic)
+migrations/
+
+# MyPy / Linting
+.mypy_cache/
+.pyre/
+ruff_cache/
+
+# Build / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Others (optional)
+logs/
+*.bak
+*.swp
+*.tmp
+*.log.*
